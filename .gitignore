@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+config/*.json # we don't want to expose people's api keys or configs
+!config/agents_config.json # But keep the agents framework json

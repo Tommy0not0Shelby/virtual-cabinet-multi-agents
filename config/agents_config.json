@@ -1,0 +1,22 @@
+{
+  "router": {
+    "model": "gpt-4o",
+    "prompt_file": "agents/router.md",
+    "description": "大内总管，负责调度、意图识别与系统分发"
+  },
+  "coder": {
+    "model": "gpt-4o",
+    "prompt_file": "agents/coder.md",
+    "description": "兵部尚书，负责代码、架构设计与工程化"
+  },
+  "marketer": {
+    "model": "gpt-4o-mini",
+    "prompt_file": "agents/marketer.md",
+    "description": "礼部尚书，负责产品文案与市场营销策略"
+  },
+  "analyst": {
+    "model": "gpt-4o",
+    "prompt_file": "agents/analyst.md",
+    "description": "户部尚书，负责数据复盘、商业分析与报表总结"
+  }
+}
